@@ -41,7 +41,6 @@ linux:
 FGT := $(GOPATH)/bin/fgt
 $(FGT):
 	go get github.com/GeertJohan/fgt
-	go get golang.org/x/net/html
 
 GOLINT := $(GOPATH)/bin/golint
 $(GOLINT):
